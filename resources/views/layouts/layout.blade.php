@@ -13,11 +13,32 @@
  
 		@yield('content')
 	</div>
+
+
 	<style type="text/css">
 	.table {
-		border-top: 2px solid #ccc;
- 
+		
+		border-top: 2px solid #C2EBEA;
 	}
+
+	body{
+		background: linear-gradient(to right, #DCE3E2   , #8BA9A9); 
+	}
+
+	.panel-body{
+		background: #F4FFFF ; 
+		-webkit-box-shadow: -12px 10px 4px 3px rgba(36,90,92,1);
+		-moz-box-shadow: -12px 10px 4px 3px rgba(36,90,92,1);
+		box-shadow: -12px 10px 4px 3px rgba(36,90,92,1);
+		
+	}	
+
+
+
 </style>
+
+
+
+
 </body>
 </html>
